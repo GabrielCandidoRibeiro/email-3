@@ -1,0 +1,127 @@
+<mjml>
+  <mj-head>
+    <mj-title>Relatório Mensal - PowerComm</mj-title>
+    <mj-preview>Seus resultados de Novembro/2025 estão disponíveis.</mj-preview>
+    <mj-attributes>
+      <mj-all font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" />
+      <mj-text font-size="14px" color="#555555" line-height="20px" />
+      <mj-section padding="0px" />
+    </mj-attributes>
+    <mj-style>
+      /* Estilização da Tabela HTML Pura */
+      .table-header { border-bottom: 2px solid #0f2e5c; color: #0f2e5c; font-weight: bold; padding: 10px 0; text-align: left; }
+      .table-row { border-bottom: 1px solid #eeeeee; padding: 10px 0; }
+      .text-green { color: #28a745; font-weight: bold; }
+      .text-red { color: #dc3545; font-weight: bold; }
+    </mj-style>
+  </mj-head>
+
+  <mj-body background-color="#f4f4f4" width="600px">
+    
+    <mj-section background-color="#0f2e5c" padding="20px">
+      <mj-column width="50%" vertical-align="middle">
+        <mj-image width="140px" align="left" src="https://raw.githubusercontent.com/GabrielCandidoRibeiro/email-assets/main/Captura%20de%20tela%202025-11-18%20234117.png" alt="PowerComm" />
+      </mj-column>
+      <mj-column width="50%" vertical-align="middle">
+        <mj-text align="right" color="#ffffff" font-size="12px">
+          RELATÓRIO MENSAL<br/>
+          <strong>NOVEMBRO 2025</strong>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff" padding="30px 20px 10px 20px">
+      <mj-column>
+        <mj-text align="center" color="#999999" font-size="12px" text-transform="uppercase">
+          E-mails Enviados
+        </mj-text>
+        <mj-text align="center" color="#0f2e5c" font-size="24px" font-weight="bold">
+          12.450
+        </mj-text>
+      </mj-column>
+      
+      <mj-column>
+        <mj-text align="center" color="#999999" font-size="12px" text-transform="uppercase">
+          Taxa de Abertura
+        </mj-text>
+        <mj-text align="center" color="#0078d4" font-size="24px" font-weight="bold">
+          48.2%
+        </mj-text>
+      </mj-column>
+
+      <mj-column>
+        <mj-text align="center" color="#999999" font-size="12px" text-transform="uppercase">
+          Cliques
+        </mj-text>
+        <mj-text align="center" color="#28a745" font-size="24px" font-weight="bold">
+          3.105
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff" padding="0 20px">
+      <mj-column>
+        <mj-divider border-width="1px" border-color="#eeeeee" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff" padding="20px">
+      <mj-column>
+        <mj-text container-background-color="#fff3cd" color="#856404" padding="15px">
+          <strong>⚠️ Alerta de Segurança:</strong> Detectamos 3 tentativas de login falhas na conta de <em>Admin</em> no dia 15/11. Recomendamos revisar as permissões.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff" padding="0 20px 40px 20px">
+      <mj-column>
+        <mj-text font-size="16px" font-weight="bold" color="#0f2e5c" padding-bottom="15px">
+          Desempenho por Departamento
+        </mj-text>
+
+        <mj-table>
+          <tr style="text-align:left;">
+            <th class="table-header">Departamento</th>
+            <th class="table-header">Envios</th>
+            <th class="table-header">Engajamento</th>
+          </tr>
+          <tr>
+            <td class="table-row">Recursos Humanos</td>
+            <td class="table-row">5.000</td>
+            <td class="table-row text-green">▲ 52%</td>
+          </tr>
+          <tr>
+            <td class="table-row">Vendas</td>
+            <td class="table-row">4.200</td>
+            <td class="table-row text-red">▼ 18%</td>
+          </tr>
+          <tr>
+            <td class="table-row">TI / Suporte</td>
+            <td class="table-row">1.100</td>
+            <td class="table-row text-green">▲ 85%</td>
+          </tr>
+          <tr>
+            <td class="table-row">Marketing</td>
+            <td class="table-row">2.150</td>
+            <td class="table-row text-green">▲ 41%</td>
+          </tr>
+        </mj-table>
+
+        <mj-button background-color="#f4f4f4" color="#0f2e5c" border="1px solid #dddddd" href="#" width="100%" padding-top="20px">
+          Baixar Relatório Completo (PDF)
+        </mj-button>
+
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="20px 0">
+      <mj-column>
+        <mj-text align="center" font-size="11px" color="#999999">
+          Este é um e-mail automático do sistema PowerComm.<br/>
+          Não responda a este e-mail.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+  </mj-body>
+</mjml>
